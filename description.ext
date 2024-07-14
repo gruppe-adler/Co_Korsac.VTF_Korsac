@@ -18,6 +18,8 @@ reviveMode = 0;
 
 enableDebugConsole = 1;
 
+
+
 #include "USER\missionInfo.hpp"
 #include "USER\loadouts.hpp"
 #include "USER\garbageCollector.hpp"
@@ -49,6 +51,8 @@ class missionSettings {
 //FUNCTIONS ====================================================================
 class CfgFunctions
 {
+    #include "ETHICSMinefields\THY_ETH_functions.hpp"
+
 	#include "functions\common\cfgFunctions.hpp"
 	#include "functions\diagnostics\cfgFunctions.hpp"
     #include "functions\events\cfgFunctions.hpp"
